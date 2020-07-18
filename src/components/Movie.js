@@ -37,6 +37,7 @@ class Dashboard extends React.Component{
 					<Link to={'/movies/new'} className="btn btn-primary">create movie</Link>
 			 <div>
 			 	 <List {...this.props} />
+			 	 {_.isEmpty(this.props.movies) ? "No Record Found -create new" : null}
 			 </div>
 			 </div>
 			</div>)
