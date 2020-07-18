@@ -2,6 +2,11 @@
 a{
     color:#47649F;
 }
+.screen{
+    margin-left: 47%;
+    font-size: 19px;
+    font-weight: 600;
+}
 .tools{
     margin-left: 40%;
 

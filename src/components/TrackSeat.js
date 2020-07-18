@@ -67,6 +67,7 @@ class TrackSeat extends React.Component{
     let {best_seats} = this.props
     return (
       <div className=" col-md-12">
+      <p className="screen">Screen</p>
       <div className="seats-section">
       <SeatPicker
         addSeatCallback={this.addSeatCallback}
